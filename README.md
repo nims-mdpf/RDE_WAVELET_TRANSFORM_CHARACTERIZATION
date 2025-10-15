@@ -17,7 +17,7 @@ RDE_RDE_WAVELET_TRANSFORM_CHARACTERIZATIONデータセットテンプレート�
 
 RDEToolKitを用いて作成されています。
 
-提供しているRDEデータセットテンプレート RDE_XRD を動かしてみる手順は[tryout/tryout.md](tryout/tryout.md)を参照してください。
+提供しているRDEデータセットテンプレート RDE_WAVELET_TRANSFORM_CHARACTERIZATION を動かしてみる手順は[tryout/tryout.md](tryout/tryout.md)を参照してください。
 
 ## 関連リンク
 
