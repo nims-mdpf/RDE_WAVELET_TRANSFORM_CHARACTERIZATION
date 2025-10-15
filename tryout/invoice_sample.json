@@ -1,0 +1,32 @@
+{
+    "datasetId": "e751fcc4-b926-4747-b236-cab40316fc49",
+    "basic": {
+        "dateSubmitted": "2025/09/15",
+        "dataOwnerId": "waveletwaveletwaveletwaveletwaveletwaveletwaveletwavelet",
+        "dataName": "test",
+        "instrumentId": null,
+        "experimentId": null,
+        "description": ""
+    },
+    "custom": {
+        "key1": "aaa",
+        "key2": "bbb",
+        "key3": null,
+        "key4": null,
+        "key5": null,
+        "common_data_type": "wavelet characterization",
+        "common_data_origin": null,
+        "common_technical_category": null,
+        "common_reference": null,
+        "calculation_calculation_method": null,
+        "calculation_supercom_or_pc": null,
+        "calculation_os": null,
+        "calculation_software_name": null,
+        "calculation_software_version": null,
+        "calculation_software_reference": null,
+        "calculation_operator": null,
+        "calculation_calculated_date": "2025-09-15",
+        "calculation_material_name": null,
+        "calculation_key_object": null
+    }
+}

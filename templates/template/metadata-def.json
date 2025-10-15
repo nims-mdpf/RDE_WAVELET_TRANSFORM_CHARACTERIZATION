@@ -1,0 +1,101 @@
+{
+    "ms_mean": {
+        "name": {
+            "ja": "輝度平均",
+            "en": "Brightness Mean"
+        },
+        "schema": {
+            "type": "number"
+        }
+    },
+    "ms_std": {
+        "name": {
+            "ja": "輝度標準偏差",
+            "en": "Brightness Standard Deviation"
+        },
+        "schema": {
+            "type": "number"
+        }
+    },
+    "ms_kurtosis": {
+        "name": {
+            "ja": "輝度歪度",
+            "en": "Brightness Skewness"
+        },
+        "schema": {
+            "type": "number"
+        }
+    },
+    "ms_skewness": {
+        "name": {
+            "ja": "輝度尖度",
+            "en": "Brightness Kurtosis"
+        },
+        "schema": {
+            "type": "number"
+        }
+    },
+    "ss_residual_highpass": {
+        "name": {
+            "ja": "ハイパスフィルター特徴量",
+            "en": "Highpass Filter Feature"
+        },
+        "schema": {
+            "type": "number"
+        }
+    },
+    "ss_residual_lowpass": {
+        "name": {
+            "ja": "ローパスフィルター特徴量",
+            "en": "Lowpass Filter Feature"
+        },
+        "schema": {
+            "type": "number"
+        }
+    },
+    "s_0": {
+        "name": {
+            "ja": "スケール0のスペクトル統計量",
+            "en": "Scale-0 Spectrum Statistics"
+        },
+        "schema": {
+            "type": "number"
+        }
+    },
+    "s_1": {
+        "name": {
+            "ja": "スケール1のスペクトル統計量",
+            "en": "Scale-1 Spectrum Statistics"
+        },
+        "schema": {
+            "type": "number"
+        }
+    },
+    "s_2": {
+        "name": {
+            "ja": "スケール2のスペクトル統計量",
+            "en": "Scale-2 Spectrum Statistics"
+        },
+        "schema": {
+            "type": "number"
+        }
+    },
+    "s_3": {
+        "name": {
+            "ja": "スケール3のスペクトル統計量",
+            "en": "Scale-3 Spectrum Statistics"
+        },
+        "schema": {
+            "type": "number"
+        }
+    },
+    "s_4": {
+        "name": {
+            "ja": "スケール4のスペクトル統計量",
+            "en": "Scale-4 Spectrum Statistics"
+        },
+        "schema": {
+            "type": "number"
+        }
+    }
+}
