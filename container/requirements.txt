@@ -1,5 +1,5 @@
 # PyPI library used in all project
-rdetoolkit==1.3.4
+rdetoolkit==1.7.1
 
 # PyPI libraries to be customized and installed in each project
 # python-magic==0.4.25 ...etc
