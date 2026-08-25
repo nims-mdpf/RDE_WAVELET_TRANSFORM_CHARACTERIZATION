@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from typing import Any
 
 from rdetoolkit.invoicefile import InvoiceFile, overwrite_invoicefile_for_dpfterm
@@ -101,7 +101,7 @@ class InvoiceWriter:
             return update_invoice_term_info
         calculated_date: str | None = invoice_obj["custom"].get("calculation_calculated_date")
         if calculated_date is None:
-            tdate = datetime.now(timezone.utc)
+            tdate = datetime.now(UTC)
             calculated_date = f"{tdate.year:04d}-{tdate.month:02d}-{tdate.day:02d}"
         update_invoice_term_info["calculation_calculated_date"] = calculated_date
         return update_invoice_term_info

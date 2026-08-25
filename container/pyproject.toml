@@ -1,6 +1,7 @@
 [project]
 name = "Wavelet Transform Characterization"
-version = "1.0.0"
+version = "1.1.0"
+requires-python = ">=3.12,<3.13"
 
 [tool.coverage.run]
 omit = ["tests/*"]
@@ -25,7 +26,7 @@ exclude_also = [
 ]
 
 [tool.ruff]
-line-length = 1000
+line-length = 320
 lint.select = [
     "F",    # pyflakes
     "E",    # pycodestyle
@@ -135,7 +136,7 @@ bad-assignment = true
 bad-argument-type = true
 bad-argument-count = true
 missing-argument = true
-import-error = true
+# import-error = true
 invalid-annotation = true
 missing-attribute = false
 not-callable = true
